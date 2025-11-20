@@ -17,4 +17,3 @@ class Casa:
     def descripcion(self):
         return f"Casa(direccion = {self.direccion}, total de area = {self.total_area()}m2, numero de habitaciones = {len(self.habitaciones)})"
 
-    
