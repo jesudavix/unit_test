@@ -19,14 +19,3 @@ class Casa:
         return f"La casa de la dirreccion: {self.direccion} tiene {lista_muebles}"
 
 
-silla = Mueble("Silla")
-sofaCama = Mueble("SofaCama")
-mesedora = Mueble("Mesedora")
-
-casa1 = Casa("Carrea 38 # 27c-203")
-
-casa1.agregarMueble(silla)
-casa1.agregarMueble(sofaCama)
-casa1.agregarMueble(mesedora)
-print(casa1.descripcion())
-

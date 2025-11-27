@@ -4,7 +4,7 @@ def test_atributos():
     motor = Motor("V8", 450)
     auto = Carro("Ford", "Mustang", motor)
 
-    
+    assert auto.motor == motor   
     assert auto.marca == "Ford"
     assert auto.modelo == "Mustang"
     assert auto.motor.tipo == "V8"

@@ -16,6 +16,8 @@ def test_agregar_muebles():
     sofaCama = Mueble("SofaCama")
     casa = Casa("Carrera 38 # 27c-203")
 
+    assert len(casa.muebles) == 0
+
     casa.agregarMueble(silla)
     casa.agregarMueble(sofaCama)
 
